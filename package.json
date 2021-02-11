@@ -25,11 +25,11 @@
     "postinstall": "husky install",
     "build": "builder build plugin",
     "build-dev": "builder build plugin --no-minify",
-    "test": "yarn build-dev && cd tests && yarn && yarn plugin import ../bundles/@yarnpkg/plugin-workspaces-watch.js && yarn run test:start"
+    "test": "yarn build && cd tests && yarn && yarn plugin import ../bundles/@yarnpkg/plugin-workspaces-watch.js && yarn run test:start"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && yarn build"
+      "pre-commit": "yarn test"
     }
   }
 }
