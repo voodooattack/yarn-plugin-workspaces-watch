@@ -36,7 +36,7 @@ Watch all workspaces:
 
 `$ yarn workspaces watch`
 
-Run a command after every update in the affect workspace's directory:
+Run a command after every update in the affected workspace's directory:
 
 `$ yarn workspaces watch --exec "echo Hello world!"`
 

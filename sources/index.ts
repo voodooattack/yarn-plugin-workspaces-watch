@@ -30,7 +30,7 @@ class WorkspacesWatch extends Command<CommandContext> {
       `Watch all workspaces`,
       `$0 workspaces watch`,
     ], [
-      `Run a command after every update in the affect workspace's directory`,
+      `Run a command after every update in the affected workspace's directory`,
       `$0 workspaces watch --exec "echo Hello world!"`,
     ]]
   });
@@ -46,7 +46,7 @@ class WorkspacesWatch extends Command<CommandContext> {
   @Command.Boolean("--skip-builds", {description: "Skip the build step altogether"})
   skipBuilds!: boolean;
 
-  @Command.String("--exec", {description: "Command to execute on update"})
+  @Command.String("--exec", {description: "Command to execute on changes"})
   exec?: string;
 
   @Command.String("--pid-file", {description: "PID file to use"})
