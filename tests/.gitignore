@@ -5,3 +5,4 @@
 !.yarn/versions
 .pnp.js
 node_modules
+/.yarn/plugins/@yarnpkg/plugin-workspaces-watch.cjs
