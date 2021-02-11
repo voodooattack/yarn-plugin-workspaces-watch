@@ -4,7 +4,7 @@ Watches package.json files for changes and installs the project dependencies aut
 ## Installation:
 ```
 $ yarn set version berry
-$ yarn plugin import https://raw.githubusercontent.com/voodooattack/yarn-plugin-workspaces-watch/master/bundles/@yarnpkg/yarn-plugin-workspaces-watch.js
+$ yarn plugin import https://raw.githubusercontent.com/voodooattack/yarn-plugin-workspaces-watch/master/bundles/%40yarnpkg/plugin-workspaces-watch.js
 ```
 
 ### Description:
