@@ -4,4 +4,3 @@
 !.yarn/sdks
 !.yarn/versions
 .pnp.js
-.husky
