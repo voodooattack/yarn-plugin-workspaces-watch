@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "private": true,
+  "devDependencies": {
+    "lodash": "^4.17.20"
+  },
+  "scripts": {
+    "test-script": "echo $PWD",
+    "test:start": "yarn dlx concurrently -s last \"sleep 1 && yarn workspaces foreach -p add debug && sleep 2 && yarn remove --all debug && pkill -F .yarn.pid\" \"node .yarn/releases/yarn-berry.cjs workspaces watch --pid-file .yarn.pid\""
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

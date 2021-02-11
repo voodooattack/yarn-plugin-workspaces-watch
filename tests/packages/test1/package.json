@@ -1,0 +1,9 @@
+{
+  "name": "test1",
+  "devDependencies": {
+    "lodash": "^4.17.20"
+  },
+  "scripts": {
+    "test-script": "echo test $PWD"
+  }
+}

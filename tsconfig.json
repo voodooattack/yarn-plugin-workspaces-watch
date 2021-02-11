@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["esnext", "esnext.asynciterable"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "strict": false,
+    "target": "ES2018",
+    "declaration": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "sources/**/*.ts"
+  ]
+}
